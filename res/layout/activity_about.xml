@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:weightSum="1"
+    tools:context=".HomeActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6"
+        android:autoLink="all"
+        android:text="Localstartups is an android app, Source code is avialble at code.google.com/p/local-startups/  which has be designed by students after learning Android in 20 days at www.PracticalCoding.in with an intension to know the startups and icubation details at hubli.In this direction Localstartup app helps you in indentifying the various startup at hubli as soon as possible.Contact us at info@PracticalCoding.in OR Facebook.com/PracticalCoding"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:layout_marginTop="5dp" >
+    </ListView>
+
+</LinearLayout>

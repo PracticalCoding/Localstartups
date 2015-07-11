@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+
+            <item android:id="@+id/share"
+                  android:title="ShareApp" />
+            <item android:id="@+id/feedback"
+                  android:title="Feedback" />
+             <item android:id="@+id/rate"
+                  android:title="Rate App" />
+              <item android:id="@+id/like"
+                  android:title="Like us" />
+ 
+
+</menu>
+
+
+
